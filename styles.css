@@ -1,0 +1,120 @@
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: hsl(210, 46%, 95%);
+}
+
+/* <-- GRID --> */
+
+main {
+  margin: 2.5rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four"
+    "five";
+}
+
+/* Mobile */
+@media screen and (min-width: 375px) {
+  main {
+    grid-template-areas:
+      "one one two five"
+      "three four four five";
+  }
+}
+
+/* <-- CARD --> */
+
+article {
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0.5rem 0.5rem 0.5rem hsl(0, 0%, 81%);
+}
+
+article:nth-child(1) {
+  grid-area: one;
+}
+
+article:nth-child(2) {
+  grid-area: two;
+}
+
+article:nth-child(3) {
+  grid-area: three;
+}
+
+article:nth-child(4) {
+  grid-area: four;
+}
+
+article:nth-child(5) {
+  grid-area: five;
+}
+
+/* Name & Headline */
+.bold {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.position {
+  opacity: 50%;
+  margin-top: 0;
+}
+
+p {
+  opacity: 70%;
+}
+
+.violet {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+  background-color: hsl(263, 55%, 52%);
+}
+
+.grey {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.white {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+}
+
+.black {
+  background-color: hsl(219, 29%, 14%);
+}
+
+/* Avatar, Name & Position */
+.head {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 1.75rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+/* <-- ATTRIBUTION --> */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
