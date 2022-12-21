@@ -30,7 +30,7 @@ main {
 }
 
 /* Desktop */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   main {
     grid-template-areas:
       "one one two five"
