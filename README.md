@@ -6,8 +6,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Screenshots](#screenshots)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshots
 
-![](screenshots/desktop.jpg)
-![](screenshots/mobile.jpg)
+![](screenshots/desktop.png)
+![](screenshots/mobile.png)
 
 ### Link
 
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://n4itik.github.io/testimonials-grid-section/)
 
 ## My process
 
