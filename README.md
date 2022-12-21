@@ -54,7 +54,7 @@ I'd like to take on more complex projects to get even more comfortable with grid
 ## Author
 
 - Frontend Mentor - [@n4itik](https://www.frontendmentor.io/profile/n4itik)
-- Twitter - [@N4iTiK](https://www.twitter.com/N4iTiK)
+- Linktree - [Naitik Yadav](https://linktr.ee/naitikyadav)
 
 ## Acknowledgments
 
